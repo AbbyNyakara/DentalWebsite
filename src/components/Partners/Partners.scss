@@ -1,0 +1,24 @@
+.partners {
+  padding-top: 2rem;
+}
+
+.partners__title {
+  color: #150050;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.partners__all {
+  text-align: center;
+}
+
+.partner__insurance {
+  width: 15rem;
+  height: 15rem;
+  object-fit: contain;
+  margin: 10px;
+}

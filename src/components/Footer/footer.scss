@@ -1,0 +1,42 @@
+.footer {
+  background-color: #06283d;
+  color: #ddd;
+}
+
+.footer__main {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  margin: auto;
+}
+
+.footer__subheading {
+  color: #31c6d4;
+  font-weight: bolder;
+  padding-bottom: 1.2rem;
+}
+
+.footer__copyright {
+  height: 3.5rem;
+  background-color: #000;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0.9rem;
+  span {
+    color: #31c6d4;
+  }
+}
+
+.footer__quick-links,
+.footer__workinghrs,
+.footer__location {
+  p {
+    padding-bottom: 5px;
+  }
+  span{
+    color: #31c6d4;
+  }
+}

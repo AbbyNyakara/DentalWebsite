@@ -1,0 +1,57 @@
+.header__top {
+  background-color: #06283D;
+  height: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 10px;
+  font-weight: bolder;
+  font-size: 0.9rem;
+  padding: 0 2rem;
+}
+
+.header__top-workingHrs {
+  padding-right: 10px;
+  border-right: 1px solid #fff;
+}
+
+.header__logo {
+  height: 50px;
+  width: 100px;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.header__bottom {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem 0 0.2rem;
+  font-size: 0.9rem;
+}
+
+.header__navigation {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #06283D;
+}
+
+.schedule {
+  color: #fff;
+  background-color: #06283D;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin: auto;
+}
+

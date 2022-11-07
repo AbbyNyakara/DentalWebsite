@@ -1,0 +1,83 @@
+.doctor {
+  background: rgb(223, 246, 255, 0.5);
+}
+
+.image__section {
+  width: 350px;
+  height: 450px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+}
+
+.doctor__main {
+  padding: 2rem;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.doctor__info-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: lighter;
+  padding-bottom: 0.3rem;
+  color: rgb(99, 93, 93);
+}
+
+.doctor__info-profession {
+  color: rgb(141, 135, 135);
+  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+.quotation {
+  padding-left: 2rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  font-style: italic;
+  color: rgb(99, 93, 93);
+  padding-bottom: 1.5rem;
+}
+
+.doctor__specs {
+  list-style: none;
+  li {
+    color: rgb(99, 93, 93);
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  padding-right: 4px;
+}
+
+.doctor__bio {
+  margin-top: 2rem;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #00ABB3;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+
+
+
+
