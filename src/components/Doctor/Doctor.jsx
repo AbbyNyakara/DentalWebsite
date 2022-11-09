@@ -7,7 +7,7 @@ import docImg from '../../assets/officialPic.jpg';
 
 const Doctor = () => {
   return (
-    <div className='doctor'>
+    <div className='doctor' id="doctor">
       <div className="doctor__main">
         <div className="image__section">
           <img src={docImg} alt="" />

@@ -3,7 +3,7 @@ import './services.scss'
 
 const Services = () => {
   return (
-    <div className='services'>
+    <div className='services' id="services">
         <h2 className='services__title'>Comprehensive Dentistry For the Entire Family</h2>
         <h3 className='services__subtitle'>Our Services</h3>
         <div className="services__types">

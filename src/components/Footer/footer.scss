@@ -1,32 +1,39 @@
+@use '../../sass/abstracts/variables';
+
 .footer {
-  background-color: #06283d;
-  color: #ddd;
+  background-color: variables.$clr-dark-blue-bg;
+  color: variables.$clr-text-white;
+  p {
+    margin-bottom: 0;
+  }
 }
 
 .footer__main {
+  width: 90%;
   display: grid;
-  place-items: center;
+  padding-left: 2rem;
+  gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
-  padding: 20px;
+  padding: 1.9rem;
   margin: auto;
 }
 
 .footer__subheading {
-  color: #31c6d4;
+  color: variables.$clr-aqua-green;
   font-weight: bolder;
   padding-bottom: 1.2rem;
 }
 
 .footer__copyright {
-  height: 3.5rem;
-  background-color: #000;
+  padding: 10px;
+  background-color: variables.$clr-black-bg;
   display: grid;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: variables.$clr-text-white;
   font-size: 0.9rem;
   span {
-    color: #31c6d4;
+    color: variables.$clr-aqua-green;
   }
 }
 
@@ -37,6 +44,33 @@
     padding-bottom: 5px;
   }
   span{
-    color: #31c6d4;
+    color: variables.$clr-aqua-green;
+  }
+}
+
+.hashlink {
+  color: variables.$clr-text-white;
+  &:hover {
+    color: variables.$clr-aqua-green;
+    text-decoration: underline;
+  }
+}
+
+.footer__hashlinks {
+  display: grid;
+  color: variables.$clr-text-white;
+}
+
+// Tablet and mobile view 
+
+@media screen and (max-width: 540px) {
+  .footer__main {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 900px) {
+  .footer__main {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

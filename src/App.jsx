@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Partners from './components/Partners/Partners';
@@ -13,14 +14,16 @@ import './App.css';
 const App = () => {
   return (
     <div>
-      <Header />
-      <Home />
-      <Partners />
-      <Doctor />
-      <Services />
-      <Reviews />
-      <Contact />
-      <Footer />
+      <Router>
+        <Header />
+        <Home />
+        <Partners />
+        <Doctor />
+        <Services />
+        <Reviews />
+        <Contact />
+        <Footer />
+      </Router>
     </div>
   )
 }

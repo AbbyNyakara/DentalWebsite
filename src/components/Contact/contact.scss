@@ -1,12 +1,32 @@
+@use '../../sass/abstracts/variables';
+
 .contact {
   display: grid;
+  padding: 2rem;
   place-items: center;
   grid-template-columns: repeat(2, 1fr);
   width: 100%;
   margin: auto;
-  padding: 3rem 0;
-  // gap: 2rem;
-  background-color: #eee;
+}
+
+.contact__header {
+  text-align: center;
+}
+
+.contact__title {
+  color: variables.$clr-aqua-green;
+  padding-top: 2rem;
+  font-weight: bold;
+  font-family: variables.$font-cursive;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.contact__description {
+  font-size: 1.2rem;
+  padding-top: 1rem;
+  color: variables.$clr-dark-blue-bg;
+  font-weight: bolder;
 }
 
 .contact__form {
@@ -16,7 +36,6 @@
   border: none;
   border-radius: 5px;
 }
-
 
 .contact__section {
   display: flex;
@@ -33,11 +52,6 @@
 
 .contact__main {
   box-shadow: rgb(59, 54, 54, 0.5);
-}
-
-.contact__header {
-  text-align: center;
-  text-transform: uppercase;
 }
 
 .contact__info {

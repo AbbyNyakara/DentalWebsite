@@ -1,6 +1,6 @@
 .header__top {
   background-color: #06283D;
-  height: 2rem;
+  height: 3rem;
   color: #fff;
   text-transform: uppercase;
   display: flex;
@@ -12,18 +12,27 @@
   padding: 0 2rem;
 }
 
-.header__top-workingHrs {
+.header__working-hrs {
+  display: flex;
+  flex-direction: column;
   padding-right: 10px;
   border-right: 1px solid #fff;
 }
 
+.header__top-workingHrs {
+  margin-bottom: 0;
+}
+
 .header__logo {
-  height: 50px;
-  width: 100px;
+  padding-left: 1rem;
+  display: flex;
+  gap: 10px;
+  height: 45px;
+  padding-top: 5px;
   img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 }
 
@@ -40,10 +49,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 12px;
   font-weight: bold;
   font-size: 1rem;
   color: #06283D;
+  padding-top: 5px;
 }
 
 .schedule {

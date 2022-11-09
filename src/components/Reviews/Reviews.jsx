@@ -4,7 +4,7 @@ import reviewsBg from '../../assets/offices.jpg'
 
 const Reviews = () => {
   return (
-    <div className='reviews'>
+    <div className='reviews' id="reviews">
       {/* <div className="reviews__main">
           <p>This is the reviews section</p>
       </div> */}
