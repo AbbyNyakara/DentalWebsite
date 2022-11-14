@@ -1,5 +1,16 @@
+@use '../../sass/abstracts/variables';
+
 .doctor {
-  background: rgb(223, 246, 255, 0.5);
+  background-image: url('../../assets/docBg.jpg');
+  object-fit: contain;
+  padding-top: 1rem;
+}
+
+.doctor__intro {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: variables.$clr-dark-blue-bg;
 }
 
 .image__section {
@@ -65,19 +76,10 @@
   padding-right: 4px;
 }
 
-.doctor__bio {
-  margin-top: 2rem;
-  padding: 10px 20px;
-  outline: none;
-  border: none;
-  font-family: 'Montserrat', sans-serif;
-  background-color: #00ABB3;
-  color: #fff;
-  font-size: 1.2rem;
-  border-radius: 5px;
+@media screen and (max-width: 956px) {
+  .doctor__main {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 3rem;
+  }
 }
-
-
-
-
-

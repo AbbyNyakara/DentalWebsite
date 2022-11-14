@@ -5,11 +5,9 @@ import reviewsBg from '../../assets/offices.jpg'
 const Reviews = () => {
   return (
     <div className='reviews' id="reviews">
-      {/* <div className="reviews__main">
-          <p>This is the reviews section</p>
-      </div> */}
+      {/* <h2>What Our Patients have to say</h2> */}
       <div id="carouselExampleFade" className="reviews__main carousel slide carousel-fade" data-bs-ride="carousel">
-        <div className="carousel-inner">
+        <div className="carousel-inner main-carousel">
           <div className="carousel-item active">
             <p className="d-block w-80"> "Dr. Chris is a genius.What he has been able to achieve with my teeth is four days 
             is awesome, and it took a lot of work. The results are always promising. I highly reccomend him especially for 
@@ -44,8 +42,6 @@ const Reviews = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-
-
 
       <div className="reviews__bg">
         <img src={reviewsBg} alt="" />

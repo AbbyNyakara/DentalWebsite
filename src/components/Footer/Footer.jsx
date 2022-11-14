@@ -1,5 +1,6 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
+import { AiOutlineInstagram, AiOutlineFacebook, AiOutlineMail } from 'react-icons/ai';
 import './footer.scss';
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
         <h4 className="footer__subheading">Our Location</h4>
         <p>We are conveniently located at the heart of Isiolo Town</p>
         <p> <span>Airport Road</span> - Isiolo Town Near Jatim Engineering</p>
-        <p>Phone : <a href="tel: +254719325889"></a> <span>0719325889</span></p>
+        <a href="tel:+254719325889" >Phone: <span> 0719 325 889 </span></a>
         <p>Email : <a href="mailto: waymarkdentalltd@gmail.com"><span>waymarkdentalltd@gmail.com</span> </a></p>
       </div>
 
@@ -35,6 +36,15 @@ const Footer = () => {
             <HashLink smooth to="#contact" className='hashlink'> Contact</HashLink>
           </div>
       </div>
+
+      <div className="footer__socials">
+        <h4 className="footer__subheading">Stay Connected</h4>
+        <a href="https://www.instagram.com/waymarkdental/" target='_blank'><AiOutlineInstagram className="social-icon" /></a>
+        <a href="https://www.facebook.com/profile.php?id=100086539784832" target='_blank'><AiOutlineFacebook  className="social-icon" /></a>
+        <a href="mailto:waymarkdentalltd@gmail.com" target='_blank'><AiOutlineMail  className="social-icon" /></a>
+      </div>
+
+      
     </div>
 
     <div className="footer__copyright">

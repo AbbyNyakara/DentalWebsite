@@ -7,6 +7,7 @@
   grid-template-columns: repeat(2, 1fr);
   width: 100%;
   margin: auto;
+  gap: 2rem;
 }
 
 .contact__header {
@@ -47,6 +48,7 @@
     outline: none;
     padding: 10px;
     margin-bottom: 1rem;
+    resize: none;
   }
 }
 
@@ -55,7 +57,7 @@
 }
 
 .contact__info {
-  background-color: #ddd;
+  background-color: variables.$clr-light-gray;
   width: 70%;
 }
 
@@ -66,19 +68,44 @@ label {
 }
 
 .contact__button {
-  width: 40%;
+  width: 100%;
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #06283d;
-  color: #fff;
+  background-color: variables.$clr-dark-blue-bg;
+  color: variables.$clr-text-white;
   font-size: 0.9rem;
 }
 
 .contact__map {
   width: 70%;
   iframe {
-    width: 400px;
-    height: 490px;
+    // width: 400px;
+    width: 100%;
+    height: 400px;
+  }
+}
+
+.thankyou__msg {
+  color: variables.$clr-aqua-green;
+  font-weight: bolder;
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 900px) {
+  .contact {
+    grid-template-columns: 1fr;
+  }
+  .contact__map,
+  .contact__info {
+    width: 100%;
+  }
+  .contact__title {
+    font-size: 1.2rem;
+  }
+  .contact__description {
+    font-size: 1rem;
   }
 }
