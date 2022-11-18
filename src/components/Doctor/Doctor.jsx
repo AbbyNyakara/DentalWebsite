@@ -8,13 +8,13 @@ import docImg from '../../assets/officialPic.jpg';
 const Doctor = () => {
   return (
     <div className='doctor' id="doctor">
-      <h1 className="doctor__intro">Meet Dr. Chrispal Mbegera</h1>   
+      {/* <h1 className="doctor__intro">Meet Dr. Chrispal Mbegera</h1>    */}
       <div className="doctor__main">
         <div className="image__section">
           <img src={docImg} alt="" />
         </div>
         <div className="doctor__info">
-          <h3 className='doctor__info-title'>Dr. Chrispal Mbegera</h3>
+          <h3 className='doctor__info-title'>Meet Dr. Chrispal Mbegera</h3>
           <p className='doctor__info-profession'>Dental Surgeon</p>
           <div className="quotation">
             <p>"I always strive to provide my patients with the best care possible with honesty and integrity. I put the needs
