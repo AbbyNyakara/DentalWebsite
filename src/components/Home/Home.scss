@@ -81,6 +81,10 @@ button {
   }
 }
 
+.header__top-cell:hover {
+  color: #47B5FF;
+}
+
 @media screen and (max-width: 850px) {
   .home__header {
     font-size: 2rem;

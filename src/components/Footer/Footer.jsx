@@ -43,8 +43,6 @@ const Footer = () => {
         <a href="https://www.facebook.com/profile.php?id=100086539784832" target='_blank'><AiOutlineFacebook  className="social-icon" /></a>
         <a href="mailto:waymarkdentalltd@gmail.com" target='_blank'><AiOutlineMail  className="social-icon" /></a>
       </div>
-
-      
     </div>
 
     <div className="footer__copyright">
