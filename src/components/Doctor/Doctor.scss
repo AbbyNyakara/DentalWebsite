@@ -91,4 +91,34 @@
       font-size: 1rem;
     }
   }
+  .doctor__info-title {
+    font-size: 1.5rem;
+  }
+  .image__section {
+    width: 300px;
+    height: 400px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      padding: 1rem;
+      border: none;
+      border-radius: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .image__section {
+    width: 270px;
+    height: 350px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      padding: 1rem;
+      border: none;
+      border-radius: 5px;
+    }
+  }
 }
