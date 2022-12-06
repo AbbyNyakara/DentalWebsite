@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Doctor.scss"
-import docImg from '../../assets/officialPic.jpg';
+import docImg from '../../assets/officialPic.webp';
 
 const Doctor = () => {
   return (

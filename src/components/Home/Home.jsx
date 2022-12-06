@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.scss'
-import headshot from '../../assets/headshot.jpg'
+import headshot from '../../assets/headshot.webp'
 
 const Home = () => {
   return (
