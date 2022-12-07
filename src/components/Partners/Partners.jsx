@@ -1,8 +1,8 @@
 import React from 'react';
 import './Partners.scss';
-import Partner1 from '../../assets/partners/kmpdc.png'
-import Partner2 from '../../assets/partners/kda.png'
-import Partner3 from '../../assets/partners/kapd.png'
+import Partner1 from '../../assets/partners/kmpdc.webp';
+import Partner2 from '../../assets/partners/kda.webp';
+import Partner3 from '../../assets/partners/kapd.webp';
 
 
 const Partners = () => {

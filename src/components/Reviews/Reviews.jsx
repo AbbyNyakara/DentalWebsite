@@ -1,6 +1,6 @@
 import React from 'react';
 import './reviews.scss';
-import reviewsBg from '../../assets/offices.jpg'
+import reviewsBg from '../../assets/offices.webp'
 
 const Reviews = () => {
   return (
